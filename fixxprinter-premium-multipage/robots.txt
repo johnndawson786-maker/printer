@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /assets/js/firebase-config.js
+Sitemap: https://fixxprinter.com/sitemap.xml
