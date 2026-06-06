@@ -57,23 +57,20 @@
     </div>
   </header>
   <main>
-    <section class="hero hero--issue">
+    <section class="hero hero--offline">
       <div class="container hero__grid">
         <div class="hero__copy reveal">
-          <span class="eyebrow">Offline repair guide</span>
-          <h1>Printer offline fix: get your printer back online step by step.</h1>
-          <p>Offline errors usually come from Wi-Fi changes, queue issues, default printer settings, sleeping devices, or outdated drivers.</p>
+          <span class="eyebrow">Printer offline fix</span>
+          <h1>Fix a printer that shows offline on Windows or Mac in minutes.</h1>
+          <p>When your printer appears offline despite being powered on, the cause is almost always one of five things: a lost network connection, a stalled print queue, an incorrect default printer setting, a paused printer status, or an outdated driver. This guide walks through each fix in order.</p>
           <div class="hero__actions">
-            <a class="button button--primary" href="../wireless-printer-setup/">Check Wi-Fi Setup</a>
+            <a class="button button--primary" href="../contact/">Get Offline Help</a>
             <a class="button button--glass" href="tel:888XXXXXXX">Call 888-XX-XXXX</a>
           </div>
         </div>
         <div class="hero-panel reveal">
           <div class="hero-panel__top">
-            <div>
-              <strong>Guided printer assistant</strong>
-              <span>Choose a path instead of reading raw links.</span>
-            </div>
+            <div><strong>Offline fix assistant</strong><span>Follow steps 1 through 5 in order.</span></div>
             <span class="live-dot"></span>
           </div>
           <div class="printer-illustration" aria-hidden="true">
@@ -83,7 +80,7 @@
             <div class="signal signal--two"></div>
           </div>
           <div class="mini-grid">
-            <a href="../printer-offline-fix/">Offline Fix</a>
+            <a href="../printer-troubleshooting/">All Issues</a>
             <a href="../wireless-printer-setup/">Wi-Fi Setup</a>
             <a href="../printer-driver-installation/">Driver Help</a>
             <a href="../contact/">Contact</a>
@@ -91,117 +88,85 @@
         </div>
       </div>
     </section>
-    <section class="section">
+
+    <section class="section section--lift">
       <div class="container">
         <div class="section-heading reveal">
-          <span class="eyebrow">Issue shortcuts</span>
-          <h2>Fast paths for common printer problems.</h2>
+          <span class="eyebrow">Why printers go offline</span>
+          <h2>The most common causes of the offline status error.</h2>
+          <p>Understanding the cause makes the fix faster. Each of these can make your printer appear offline even when it is physically powered on and connected.</p>
         </div>
-        <div class="issue-grid">
-          <a class="issue-card reveal" href="../printer-offline-fix/"><h3>Printer says offline</h3><p>Restart devices, clear queue, confirm default printer, and check Wi-Fi.</p><span>Fix this issue →</span></a><a class="issue-card reveal" href="../wireless-printer-setup/"><h3>Printer will not connect to Wi-Fi</h3><p>Check same network, 2.4 GHz band, router distance, and password.</p><span>Fix this issue →</span></a><a class="issue-card reveal" href="../printer-driver-installation/"><h3>Driver error appears</h3><p>Remove old driver and install the correct official driver.</p><span>Fix this issue →</span></a><a class="issue-card reveal" href="../printer-troubleshooting/"><h3>Scanner does not work</h3><p>Confirm scanner driver, app permissions, and selected device.</p><span>Fix this issue →</span></a>
+        <div class="card-grid card-grid--three">
+          <div class="action-card reveal"><span>📡</span><h3>Lost Wi-Fi connection</h3><p>The printer disconnected from the network after a router restart, power outage, or network password change. The printer needs to reconnect before it can receive print jobs.</p></div>
+          <div class="action-card reveal"><span>🗂️</span><h3>Stalled print queue</h3><p>A previous print job is stuck in the queue and blocking all new jobs. The queue shows as busy or error, which causes the printer to appear offline to the operating system.</p></div>
+          <div class="action-card reveal"><span>🖥️</span><h3>Wrong default printer</h3><p>Windows or macOS has a different printer set as the default. Jobs are being sent to a printer that is not connected, not the one you intend to use.</p></div>
+          <div class="action-card reveal"><span>⏸️</span><h3>Printer is paused</h3><p>Someone paused the printer from the print queue dialog. The printer accepts jobs but does not print them until the paused state is cleared.</p></div>
+          <div class="action-card reveal"><span>🧩</span><h3>Outdated or corrupt driver</h3><p>The driver communicating between Windows or macOS and the printer has become corrupted or is outdated after a system update. A reinstall fixes this.</p></div>
+          <div class="action-card reveal"><span>🔌</span><h3>IP address changed</h3><p>For network printers, the printer IP address may have changed after a router restart. The computer is still pointing to the old IP, so print jobs cannot reach the printer.</p></div>
         </div>
       </div>
     </section>
+
     <section class="section">
       <div class="container split">
         <div class="split__media reveal">
           <div class="checklist-card">
-            <span>Setup Checklist</span>
-            <strong>4-step printer launch path</strong>
-            <p>Everything is grouped into short steps so users can move without confusion.</p>
+            <span>Offline Fix Checklist</span>
+            <strong>Try these 5 steps in order</strong>
+            <p>Most offline errors are resolved by step 3. Steps 4 and 5 handle more persistent issues.</p>
           </div>
         </div>
         <div class="split__content">
-          <span class="eyebrow">Setup workflow</span>
-          <h2>Install the printer without guessing what comes next.</h2>
+          <span class="eyebrow">Step-by-step offline fix</span>
+          <h2>How to bring your printer back online.</h2>
           <div class="steps-list">
-            <article class="step-card reveal"><span>1</span><div><h3>Prepare the printer</h3><p>Power on, install ink or toner, load paper, and check the display panel.</p></div></article><article class="step-card reveal"><span>2</span><div><h3>Connect the device</h3><p>Use Wi-Fi, USB, Ethernet, WPS, or the manufacturer app depending on your model.</p></div></article><article class="step-card reveal"><span>3</span><div><h3>Install drivers</h3><p>Download from the official manufacturer website and match your operating system.</p></div></article><article class="step-card reveal"><span>4</span><div><h3>Test and verify</h3><p>Run a test print, scan check, and default printer check before daily use.</p></div></article>
+            <article class="step-card reveal"><span>1</span><div><h3>Restart the printer and router</h3><p>Turn off the printer using the power button. Turn off or restart your Wi-Fi router. Wait 60 seconds. Power the router back on, wait for it to fully connect, then power on the printer. Wait for the printer to reach the idle or ready state. Try printing again.</p></div></article>
+            <article class="step-card reveal"><span>2</span><div><h3>Clear the print queue</h3><p>On Windows: go to Settings, Bluetooth and devices, Printers and scanners, select your printer, and click Open print queue. Cancel all jobs. If jobs cannot be deleted, open Services, find Print Spooler, stop it, then start it again. On Mac: open System Settings, Printers and Scanners, select the printer, click Open Print Queue, and cancel all jobs.</p></div></article>
+            <article class="step-card reveal"><span>3</span><div><h3>Set the correct default printer</h3><p>On Windows: go to Settings, Bluetooth and devices, Printers and scanners. Turn off the option to let Windows manage the default printer. Then select your printer and click Set as default. On Mac: go to System Settings, Printers and Scanners, and change the Default Printer dropdown to your correct printer.</p></div></article>
+            <article class="step-card reveal"><span>4</span><div><h3>Disable Use Printer Offline mode</h3><p>On Windows: open Control Panel, Devices and Printers, right-click your printer. If the menu shows Use Printer Online, click it. This disables the forced offline mode that Windows sometimes activates automatically when it cannot reach the printer.</p></div></article>
+            <article class="step-card reveal"><span>5</span><div><h3>Reinstall the printer driver</h3><p>Remove the printer from Windows Settings or Mac System Settings. Go to the manufacturer website and download the latest full driver package for your model. Run the installer and choose your connection type. Add the printer again after the driver installs.</p></div></article>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="section" id="faqArea">
-      <div class="container narrow">
-        <div class="section-heading reveal">
-          <span class="eyebrow">FAQ</span>
-          <h2>Answers before you contact anyone.</h2>
-        </div>
-        <div class="faq-list">
-          <article class="faq-item reveal"><button class="faq-q" type="button">Why does my printer say offline?<span>+</span></button><div class="faq-a">The printer may be disconnected from Wi-Fi, paused in the queue, set incorrectly as default, asleep, or using an outdated driver.</div></article><article class="faq-item reveal"><button class="faq-q" type="button">Where should I download printer drivers?<span>+</span></button><div class="faq-a">Use the official manufacturer website and match the exact model number and operating system version.</div></article><article class="faq-item reveal"><button class="faq-q" type="button">Can I connect my printer without USB?<span>+</span></button><div class="faq-a">Yes, many modern printers support Wi-Fi, WPS, Ethernet, or mobile app setup.</div></article><article class="faq-item reveal"><button class="faq-q" type="button">Is this website affiliated with printer brands?<span>+</span></button><div class="faq-a">No. This is an independent informational website. Brand names are used only for reference.</div></article>
-        </div>
-      </div>
-    </section>
-    <section class="section section--contact">
-      <div class="container contact-layout">
-        <div class="contact-copy reveal">
-          <span class="eyebrow">Contact</span>
-          <h2>Send your printer issue through the support form.</h2>
-          <p>Keep your message simple: printer brand, model number, device, connection type, and the exact error. The Firebase contact saving logic is preserved.</p>
-          <div class="contact-actions">
-            <a class="button button--primary" href="tel:888XXXXXXX">Call 888-XX-XXXX</a>
-            <button class="button button--soft" type="button" id="openSigninInline">Open Login</button>
-          </div>
-          <div class="disclosure-box">
-            FixxPrinter Connect is independent and not affiliated with HP, Canon, Epson, Brother, Xerox, or any printer manufacturer. Brand names are used only for reference.
-          </div>
-        </div>
-        <form class="contact-form reveal" id="contactForm" novalidate>
-          <label>Full name<input id="contactName" name="name" type="text" required autocomplete="name" placeholder="Your full name" /></label>
-          <label>Email address<input id="contactEmail" name="email" type="email" required autocomplete="email" placeholder="you@example.com" /></label>
-          <label>Support topic<select id="contactTopic" name="topic" required><option value="">Select topic</option><option>Printer setup</option><option>Wireless printer setup</option><option>Printer offline fix</option><option>Printer driver installation</option><option>Printer shopping guidance</option></select></label>
-          <label>Describe your issue<textarea id="contactMessage" name="message" required placeholder="Example: My HP printer is offline on Windows 11 after changing Wi-Fi."></textarea></label>
-          <button class="button button--primary" type="submit">Send message</button>
-        </form>
       </div>
     </section>
 
     <section class="section section--blueprint">
       <div class="container">
         <div class="section-heading reveal">
-          <span class="eyebrow">Printer support keywords covered</span>
-          <h2>Printer support, printer repair, installation, and troubleshooting help in one guided website.</h2>
-          <p>This page is written for people searching for printer support, printer repair, printer installation, printer troubleshooting, wireless printer setup, printer customer service, printer help desk, and remote printer support.</p>
+          <span class="eyebrow">Brand-specific offline fixes</span>
+          <h2>Offline issues vary slightly by printer brand.</h2>
+          <p>Some manufacturers have known quirks that cause offline errors. Read the brand hub for model-specific guidance.</p>
         </div>
-        <div class="copy-block reveal">
-          <p>When a printer is not working, users usually need a direct path: check the connection, confirm the wireless printer setup, review the driver, clear printer errors, and decide whether they need urgent printer support or a printer repair service. FixxPrinter organizes those tasks into clear pages so visitors can find printer not working help without reading confusing technical pages.</p>
-          <p>The content also supports high-intent searches such as printer support number, printer tech support USA, printer setup service, printer installation help, printer connection error support, wireless printer issue fix, remote printer support, and printer repair near me. Each page uses simple language, issue cards, and conversion-focused call buttons instead of raw URL lists.</p>
-        </div>
-        <div class="keyword-grid">
-          <article class="keyword-panel reveal">
-            <h3>Core service terms</h3>
-            <ul>
-              <li>printer support</li>
-              <li>printer repair</li>
-              <li>printer installation</li>
-              <li>printer troubleshooting</li>
-              <li>wireless printer setup</li>
-              <li>printer customer service</li>
-            </ul>
-          </article>
-          <article class="keyword-panel reveal">
-            <h3>Urgent issue terms</h3>
-            <ul>
-              <li>fix printer immediately</li>
-              <li>urgent printer support</li>
-              <li>printer not working help</li>
-              <li>wireless printer issue fix</li>
-              <li>printer connection error support</li>
-            </ul>
-          </article>
-          <article class="keyword-panel reveal">
-            <h3>High-intent support terms</h3>
-            <ul>
-              <li>printer support number</li>
-              <li>printer tech support USA</li>
-              <li>printer repair service</li>
-              <li>remote printer support</li>
-              <li>printer setup service</li>
-            </ul>
-          </article>
+        <div class="brand-grid">
+          <a class="brand-card reveal" href="../hp-printer-support/"><strong>HP</strong><p>HP printers frequently go offline after router restarts. The HP Print and Scan Doctor tool diagnoses and fixes most HP offline issues automatically.</p><span>HP offline fix →</span></a>
+          <a class="brand-card reveal" href="../canon-printer-support/"><strong>Canon</strong><p>Canon printers sometimes need the Canon IJ Network Tool to reassign the IP address after a router change. Check the network settings from the printer panel.</p><span>Canon offline fix →</span></a>
+          <a class="brand-card reveal" href="../epson-printer-support/"><strong>Epson</strong><p>Epson printers can go offline when the firewall blocks the Epson communication port. The Epson printer connection checker helps diagnose firewall-related offline issues.</p><span>Epson offline fix →</span></a>
+          <a class="brand-card reveal" href="../brother-printer-support/"><strong>Brother</strong><p>Brother printers often revert offline after deep sleep. Disable deep sleep mode from the printer menu or increase the sleep timer to prevent automatic disconnection.</p><span>Brother offline fix →</span></a>
         </div>
       </div>
     </section>
 
+    <section class="section section--contact">
+      <div class="container contact-layout">
+        <div class="contact-copy reveal">
+          <span class="eyebrow">Still offline?</span>
+          <h2>Tell us your printer model and what you have already tried.</h2>
+          <p>Provide your printer brand, model number, operating system, and what happens after each step you tried. We will identify the most likely remaining cause and send the next fix.</p>
+          <div class="contact-actions">
+            <a class="button button--primary" href="tel:888XXXXXXX">Call 888-XX-XXXX</a>
+            <a class="button button--soft" href="../contact/">Open contact form</a>
+          </div>
+          <div class="disclosure-box">FixxPrinter Connect is independent and not affiliated with HP, Canon, Epson, Brother, or any printer manufacturer. Brand names are used only for reference.</div>
+        </div>
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <label>Full name<input id="contactName" name="name" type="text" required autocomplete="name" placeholder="Your full name" /></label>
+          <label>Email address<input id="contactEmail" name="email" type="email" required autocomplete="email" placeholder="you@example.com" /></label>
+          <label>Support topic<select id="contactTopic" name="topic" required><option value="">Select topic</option><option>Printer offline fix</option><option>Printer setup</option><option>Wireless printer setup</option><option>Printer driver installation</option><option>Printer shopping guidance</option></select></label>
+          <label>Describe your issue<textarea id="contactMessage" name="message" required placeholder="Example: My Epson WorkForce shows offline on Windows 11. I have restarted both the printer and router but it still shows offline."></textarea></label>
+          <button class="button button--primary" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">

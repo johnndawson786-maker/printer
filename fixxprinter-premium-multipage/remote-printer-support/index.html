@@ -57,23 +57,20 @@
     </div>
   </header>
   <main>
-    <section class="hero hero--standard">
+    <section class="hero hero--remote">
       <div class="container hero__grid">
         <div class="hero__copy reveal">
-          <span class="eyebrow">Remote support</span>
-          <h1>Remote printer support checklist before you ask for help.</h1>
-          <p>Save time by collecting your printer model, device type, connection method, and exact error message before starting support.</p>
+          <span class="eyebrow">Remote printer support guidance</span>
+          <h1>Set up remote printing and get guidance for printing from any location.</h1>
+          <p>This guide covers remote printing options for home users, remote workers, and small business teams — including cloud print services, VPN-based printing, printer web interfaces, and mobile print apps that let you print from any device regardless of where you are physically located.</p>
           <div class="hero__actions">
-            <a class="button button--primary" href="../contact/">Contact Support</a>
+            <a class="button button--primary" href="../contact/">Get Remote Printing Help</a>
             <a class="button button--glass" href="tel:888XXXXXXX">Call 888-XX-XXXX</a>
           </div>
         </div>
         <div class="hero-panel reveal">
           <div class="hero-panel__top">
-            <div>
-              <strong>Guided printer assistant</strong>
-              <span>Choose a path instead of reading raw links.</span>
-            </div>
+            <div><strong>Remote print guide</strong><span>Printing from anywhere, explained.</span></div>
             <span class="live-dot"></span>
           </div>
           <div class="printer-illustration" aria-hidden="true">
@@ -83,109 +80,81 @@
             <div class="signal signal--two"></div>
           </div>
           <div class="mini-grid">
-            <a href="../printer-offline-fix/">Offline Fix</a>
             <a href="../wireless-printer-setup/">Wi-Fi Setup</a>
-            <a href="../printer-driver-installation/">Driver Help</a>
+            <a href="../printer-setup/">Setup Guide</a>
+            <a href="../small-business-printers/">Business Guide</a>
             <a href="../contact/">Contact</a>
           </div>
         </div>
       </div>
     </section>
+
     <section class="section section--lift">
       <div class="container">
         <div class="section-heading reveal">
-          <span class="eyebrow">Choose your next step</span>
-          <h2>Click a support card to open the exact guide.</h2>
-          <p>No raw URL blocks. Every destination is presented as a clear action card or button.</p>
+          <span class="eyebrow">Remote printing options</span>
+          <h2>Four ways to print remotely depending on your setup.</h2>
         </div>
-        <div class="card-grid card-grid--three">
-          <a class="action-card reveal" href="../printer-setup/"><span>🖨️</span><h3>Printer Setup</h3><p>Prepare, connect, install, and test your printer.</p><b>Open guide →</b></a><a class="action-card reveal" href="../printer-offline-fix/"><span>🔴</span><h3>Printer Offline Fix</h3><p>Resolve offline status, queue issues, and connection failures.</p><b>Open guide →</b></a><a class="action-card reveal" href="../wireless-printer-setup/"><span>📶</span><h3>Wireless Setup</h3><p>Connect your printer to Wi-Fi and mobile devices.</p><b>Open guide →</b></a><a class="action-card reveal" href="../printer-driver-installation/"><span>🧩</span><h3>Driver Installation</h3><p>Find and install the correct printer driver safely.</p><b>Open guide →</b></a><a class="action-card reveal" href="../printer-comparison/"><span>📊</span><h3>Printer Comparison</h3><p>Choose between inkjet, laser, tank, and all-in-one models.</p><b>Open guide →</b></a><a class="action-card reveal" href="../small-business-printers/"><span>🏢</span><h3>Small Business Printers</h3><p>Plan printers for teams, offices, and daily workflow.</p><b>Open guide →</b></a>
+        <div class="card-grid card-grid--two">
+          <div class="action-card reveal"><span>☁️</span><h3>Cloud print via manufacturer app</h3><p>HP ePrint, Canon PRINT, Epson Email Print, and Brother iPrint all let you send print jobs from any device over the internet to your home or office printer. The printer must be connected to Wi-Fi and registered with the manufacturer cloud service. Jobs are sent to the printer's unique email address or through the app.</p><b>Best for: occasional remote printing from any device</b></div>
+          <div class="action-card reveal"><span>🔒</span><h3>VPN-based printing</h3><p>If your office has a VPN, connecting to the VPN from a remote device allows you to print to the office network printer just as if you were in the office. The printer must be on the office network and your VPN must route local network traffic to on-premise devices. This is the most reliable method for business environments.</p><b>Best for: businesses with existing VPN infrastructure</b></div>
+          <div class="action-card reveal"><span>📱</span><h3>Mobile print apps</h3><p>HP Smart, Canon PRINT, Epson Smart Panel, and Brother iPrint provide both local and cloud printing from iOS and Android. When on the local Wi-Fi network, they print directly. When remote, they use the manufacturer cloud service. These apps also support scanning to phone and document management.</p><b>Best for: smartphone-first users who print occasionally</b></div>
+          <div class="action-card reveal"><span>🖨️</span><h3>Printer web interface</h3><p>Network printers have a built-in web interface (Embedded Web Server) accessible by entering the printer IP address in a browser. This allows you to check status, manage print jobs, and configure settings from any device on the local network. For remote access, a VPN connection to the office is required to reach the printer's local IP address.</p><b>Best for: IT administrators managing office printers remotely</b></div>
         </div>
       </div>
     </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Setup walkthrough</span>
+          <h2>How to set up remote printing using HP ePrint, Canon, Epson, and Brother cloud services.</h2>
+        </div>
+        <div class="steps-list">
+          <article class="step-card reveal"><span>1</span><div><h3>Confirm the printer supports cloud printing</h3><p>Most HP, Canon, Epson, and Brother wireless printers made after 2015 support cloud print services. Check the printer specifications or the manufacturer app to confirm cloud printing is available for your model. The printer must be connected to Wi-Fi and have access to the internet.</p></div></article>
+          <article class="step-card reveal"><span>2</span><div><h3>Create or log into your manufacturer account</h3><p>HP requires an HP account for HP ePrint. Canon uses Canon Account. Epson uses an Epson Connect account. Brother uses a Brother account. Create a free account on the manufacturer website. Register your printer to the account using the serial number or by following the in-app registration process.</p></div></article>
+          <article class="step-card reveal"><span>3</span><div><h3>Enable cloud services on the printer</h3><p>On the printer panel, go to Setup or Network settings and look for Web Services, Cloud Print, or ePrint options. Enable the service. The printer will connect to the manufacturer cloud service and display a confirmation. The printer is now accessible remotely through the manufacturer app or email-to-print service.</p></div></article>
+          <article class="step-card reveal"><span>4</span><div><h3>Send a remote print job</h3><p>Install the manufacturer app on your phone or computer. Log into your account. The registered printer should appear in the app as available. Send a print job from the app, email the document to the printer's ePrint address, or share the document directly from any app using the printer as the output destination. The printer will receive and print the job when the document arrives.</p></div></article>
+        </div>
+      </div>
+    </section>
+
     <section class="section section--blueprint">
       <div class="container">
         <div class="section-heading reveal">
-          <span class="eyebrow">Brand support hubs</span>
-          <h2>Pick your printer brand and continue from there.</h2>
-          <p>Each brand hub links into setup, offline, Wi-Fi, driver, and troubleshooting resources.</p>
+          <span class="eyebrow">Remote printing for hybrid teams</span>
+          <h2>Practical remote print setup for small business and hybrid work environments.</h2>
         </div>
-        <div class="brand-grid">
-          <a class="brand-card reveal" href="../hp-printer-support/"><strong>HP</strong><p>HP setup, Wi-Fi, offline, and driver paths.</p><span>View HP hub →</span></a><a class="brand-card reveal" href="../canon-printer-support/"><strong>Canon</strong><p>Canon wireless setup, driver, and print issue guidance.</p><span>View Canon hub →</span></a><a class="brand-card reveal" href="../epson-printer-support/"><strong>Epson</strong><p>Epson EcoTank, Wi-Fi, driver, and print quality support.</p><span>View Epson hub →</span></a><a class="brand-card reveal" href="../brother-printer-support/"><strong>Brother</strong><p>Brother laser, wireless, offline, and scanner guidance.</p><span>View Brother hub →</span></a>
+        <div class="comparison-grid">
+          <article class="compare-card reveal"><h3>Shared office printer access</h3><p>For teams where some staff work remotely and others in the office, a cloud-connected office printer allows remote employees to send documents to the office printer from home. The document prints in the office where a colleague can collect it, file it, or include it in an outgoing package.</p><em>Use secure print release (PIN required at the printer) to protect sensitive documents from being collected by the wrong person.</em></article>
+          <article class="compare-card reveal"><h3>Home office printing setup</h3><p>Remote workers who need to print regularly at home should have a dedicated home printer connected to their home Wi-Fi. For access to the company's shared printer remotely, the company VPN is the most reliable path. Cloud printing via the manufacturer app works for occasional remote print jobs without VPN.</p><em>Home office printers connected to company networks via VPN should use the company-approved driver for compatibility with company print servers.</em></article>
+          <article class="compare-card reveal"><h3>Print from anywhere using email</h3><p>HP ePrint assigns each ePrint-enabled printer a unique email address. Any email sent to that address with an attached PDF or image will be printed automatically when the printer is online. This method works from any device that can send email, including phones, tablets, laptops, and shared devices.</p><em>Control who can print to the ePrint address by configuring an allowed senders list in the HP Smart app or HP account settings.</em></article>
+          <article class="compare-card reveal"><h3>Printing over VPN</h3><p>When connected to a corporate or home VPN, the remote device joins the same network as the printer. Add the printer by IP address in Windows Settings or Mac System Settings. The printer behaves as if the device is physically on the local network. This is the most reliable method for high-quality, secure remote printing with full driver feature support.</p><em>Confirm with your IT team that the VPN configuration routes local subnet traffic to allow printer communication.</em></article>
         </div>
       </div>
     </section>
+
     <section class="section section--contact">
       <div class="container contact-layout">
         <div class="contact-copy reveal">
-          <span class="eyebrow">Contact</span>
-          <h2>Send your printer issue through the support form.</h2>
-          <p>Keep your message simple: printer brand, model number, device, connection type, and the exact error. The Firebase contact saving logic is preserved.</p>
+          <span class="eyebrow">Remote printing help</span>
+          <h2>Tell us your printer model and how you want to print remotely.</h2>
+          <p>Include your printer brand and model, how your network is set up (home Wi-Fi, office network, VPN), and what device you want to print from. We will identify the right remote printing method for your situation.</p>
           <div class="contact-actions">
             <a class="button button--primary" href="tel:888XXXXXXX">Call 888-XX-XXXX</a>
-            <button class="button button--soft" type="button" id="openSigninInline">Open Login</button>
+            <a class="button button--soft" href="../contact/">Open contact form</a>
           </div>
-          <div class="disclosure-box">
-            FixxPrinter Connect is independent and not affiliated with HP, Canon, Epson, Brother, Xerox, or any printer manufacturer. Brand names are used only for reference.
-          </div>
+          <div class="disclosure-box">FixxPrinter Connect is independent and not affiliated with HP, Canon, Epson, Brother, or any printer manufacturer. Brand names are used only for reference.</div>
         </div>
         <form class="contact-form reveal" id="contactForm" novalidate>
           <label>Full name<input id="contactName" name="name" type="text" required autocomplete="name" placeholder="Your full name" /></label>
           <label>Email address<input id="contactEmail" name="email" type="email" required autocomplete="email" placeholder="you@example.com" /></label>
-          <label>Support topic<select id="contactTopic" name="topic" required><option value="">Select topic</option><option>Printer setup</option><option>Wireless printer setup</option><option>Printer offline fix</option><option>Printer driver installation</option><option>Printer shopping guidance</option></select></label>
-          <label>Describe your issue<textarea id="contactMessage" name="message" required placeholder="Example: My HP printer is offline on Windows 11 after changing Wi-Fi."></textarea></label>
+          <label>Support topic<select id="contactTopic" name="topic" required><option value="">Select topic</option><option>Remote printer setup</option><option>Wireless printer setup</option><option>Printer setup</option><option>Printer offline fix</option><option>Printer shopping guidance</option></select></label>
+          <label>Describe your situation<textarea id="contactMessage" name="message" required placeholder="Example: I work from home and need to send print jobs to our office HP LaserJet Pro. Our office has a VPN. I am on Windows 11."></textarea></label>
           <button class="button button--primary" type="submit">Send message</button>
         </form>
       </div>
     </section>
-
-    <section class="section section--blueprint">
-      <div class="container">
-        <div class="section-heading reveal">
-          <span class="eyebrow">Printer support keywords covered</span>
-          <h2>Printer support, printer repair, installation, and troubleshooting help in one guided website.</h2>
-          <p>This page is written for people searching for printer support, printer repair, printer installation, printer troubleshooting, wireless printer setup, printer customer service, printer help desk, and remote printer support.</p>
-        </div>
-        <div class="copy-block reveal">
-          <p>When a printer is not working, users usually need a direct path: check the connection, confirm the wireless printer setup, review the driver, clear printer errors, and decide whether they need urgent printer support or a printer repair service. FixxPrinter organizes those tasks into clear pages so visitors can find printer not working help without reading confusing technical pages.</p>
-          <p>The content also supports high-intent searches such as printer support number, printer tech support USA, printer setup service, printer installation help, printer connection error support, wireless printer issue fix, remote printer support, and printer repair near me. Each page uses simple language, issue cards, and conversion-focused call buttons instead of raw URL lists.</p>
-        </div>
-        <div class="keyword-grid">
-          <article class="keyword-panel reveal">
-            <h3>Core service terms</h3>
-            <ul>
-              <li>printer support</li>
-              <li>printer repair</li>
-              <li>printer installation</li>
-              <li>printer troubleshooting</li>
-              <li>wireless printer setup</li>
-              <li>printer customer service</li>
-            </ul>
-          </article>
-          <article class="keyword-panel reveal">
-            <h3>Urgent issue terms</h3>
-            <ul>
-              <li>fix printer immediately</li>
-              <li>urgent printer support</li>
-              <li>printer not working help</li>
-              <li>wireless printer issue fix</li>
-              <li>printer connection error support</li>
-            </ul>
-          </article>
-          <article class="keyword-panel reveal">
-            <h3>High-intent support terms</h3>
-            <ul>
-              <li>printer support number</li>
-              <li>printer tech support USA</li>
-              <li>printer repair service</li>
-              <li>remote printer support</li>
-              <li>printer setup service</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
   </main>
 
   <footer class="footer">
